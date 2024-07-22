@@ -1,0 +1,16 @@
+{
+  "name": "Basic Python",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+},
+"features": {
+	"ghcr.io/devcontainers/features/azure-cli:1": {}
+},
+"forwardPorts": [
+		8400
+]
+}
