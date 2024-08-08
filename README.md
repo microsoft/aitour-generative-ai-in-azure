@@ -1,18 +1,11 @@
-To help prepare content for AI Tour, please use this template repository for organizing your sessions and preparing the content for future presentors.
-1. Update this readme with the todo's listed below
-2. The src folder has been created for all development tasks when creating this session
-3. The Lab folder is in-person and async participation with content, please update this folder with instructions for participants to follow along.
-4. The Presenter Notes folder is the train the trainer section. Here add any slide decks, demo videos, and other content as needed. This page has a rough layout to provide ideas but can be edited as needed.
-5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
+# The foundation of generative AI in Azure
 
 
-# [TODO: Insert Session Title]
-
-This repo is intended as a template for Microsoft AI Tour repositories
 
 ## Session Desciption
 
-TODO: Add short description of the session. Please note this description should be at a technical level that anyone from decision makers to conference attendees can understand.
+Discover the world of generative AI in Azure! We'll take a look at the newest multimodal models, like GPT-4o and Phi-3. You'll learn how these models work, what they are capable of, and how you can use them in your projects. We'll also give you a tour of the Azure AI ecosystem, showing you the different services available to help you start building your own custom copilots.
+
 
 ## Learning Outcomes
 TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
@@ -29,23 +22,34 @@ TODO: If you would like to link the user to further learning, please enter that 
 | Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
 
 ## Content Owners
-TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url.
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<table>
+<tr>
+<td>
 
 <table>
 <tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
-        <img src="https://github.com/cole-g-johnson.png" width="100px;" alt="Chris Testa-O'Neill
+        <img src="https://github.com/hnky.png" width="100px;" alt="Chris Testa-O'Neill
 "/><br />
-        <sub><b>INSERT NAME HERE
+        <sub><b>Henk Boelman
 </b></sub></a><br />
-            <a href="https://github.com/cole-g-johnson" title="talk">📢</a> 
+            <a href="https://github.com/hnky" title="talk">📢</a> 
+    </td>
+</tr></table>
+</td>
+<td>
+
+<table>
+<tr>
+    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <img src="https://github.com/aycabas.png" width="100px"    alt="Ayca Bas"/><br />
+        <sub><b>Ayca Bas</b></sub></a>
+        <br />
+        <a href="https://github.com/aycabas" title="talk">📢</a> 
+    </td>
+</tr></table>
     </td>
 </tr></table>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
