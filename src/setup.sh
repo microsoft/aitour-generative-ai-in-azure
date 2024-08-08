@@ -1,12 +1,10 @@
 #!/bin/bash  
 
 prefix="BRK440"
-
-ai_resource_name="$prefix-$(shuf -i 1000-9999 -n 1)"
-
-#ai_resource_name="BRK440"
 location="swedencentral"
 
+
+ai_resource_name="$prefix-$(shuf -i 1000-9999 -n 1)"
 echo "Resource name: $ai_resource_name"  
 
 # Create the resource group
@@ -28,7 +26,8 @@ az ml workspace create --kind project --resource-group $ai_resource_name_resourc
 # Create a Azure AI Service Account
 ai_resource_ai_service=$ai_resource_name"-aiservice"
 echo "Creating AI Service Account: $ai_resource_ai_service"
-az cognitiveservices account create --kind AIServices --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
+#az cognitiveservices account create --kind AIServices --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
+az cognitiveservices account create --kind OpenAI --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
 
 # Deploying GPT-4o in Azure AI Service
 echo "Deploying GPT-4o"
@@ -47,6 +46,7 @@ echo "api_key: $ai_service_api_key" >> connection.yml
 echo "ai_services_resource_id:  $ai_service_resource_id" >> connection.yml  
 
 az ml connection create --file connection.yml --resource-group $ai_resource_name_resource_group_name --workspace-name  $ai_resource_name_hub_name > null
+rm connection.yml 
 
 # Security
 echo "Disable storage SAS keys"
@@ -70,3 +70,4 @@ echo "endpoint: $search_url" >> connection_search.yml
 echo "api_key: $search_key" >> connection_search.yml  
 
 az ml connection create --file connection_search.yml --resource-group $ai_resource_name_resource_group_name --workspace-name  $ai_resource_name_hub_name > null
+rm connection_search.yml  
