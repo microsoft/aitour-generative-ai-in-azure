@@ -21,10 +21,8 @@ TODO: If you would like to link the user to further learning, please enter that 
 | Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
 | Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
 
+
 ## Content Owners
-<table>
-<tr>
-<td>
 
 <table>
 <tr>
@@ -35,21 +33,14 @@ TODO: If you would like to link the user to further learning, please enter that 
 </b></sub></a><br />
             <a href="https://github.com/hnky" title="talk">📢</a> 
     </td>
-</tr></table>
-</td>
-<td>
-
-<table>
-<tr>
-    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <td align="center"><a href="http://learnanalytics.microsoft.com">
         <img src="https://github.com/aycabas.png" width="100px"    alt="Ayca Bas"/><br />
         <sub><b>Ayca Bas</b></sub></a>
         <br />
         <a href="https://github.com/aycabas" title="talk">📢</a> 
     </td>
 </tr></table>
-    </td>
-</tr></table>
+
 
 
 
