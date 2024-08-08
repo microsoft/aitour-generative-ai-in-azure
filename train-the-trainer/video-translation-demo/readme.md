@@ -1,7 +1,7 @@
 
 # Pre-requisite
 
-> **Important:** Ask Henk and Ayca access to the subscription that has Video Translation feature enabled.
+> **Important:** Send an email to Henk and Ayca for access of Video Translation feature.
 - **Record your video while reading this AI Tour welcome script:**
   "Hello everyone, and welcome to the Microsoft AI Tour! It's an absolute pleasure having you all here with us as we start an amazing journey into the world of Generative AI.
   Whether you're a developer exploring new ideas, someone interested in tech, or just curious about AI, there's something here for you. We'll show you how AI can solve real-world problems and open up new possibilities.
