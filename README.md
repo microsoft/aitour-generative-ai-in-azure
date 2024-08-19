@@ -16,25 +16,18 @@ Discover the basics of generative AI, including core models, functionalities, an
 
 ## Technology Used
 
-* Azure AI Studio
-    * Chat playground with GPT4o and GPT4o mini
-    * Content filters
-    * Assistants
-* Azure Speech service
-    * Text to Speech Avatar
-    * Live Chat Avatar
-    * Video Translation
-* GitHub playground for AI models
+* Azure AI Studio *(Chat playground with GPT-4o and GPT-4o mini, Content filters, Assistants)*
+* Azure Speech service *(Text to Speech Avatar, Live Chat Avatar, Video Translation)*
+* GitHub playground for AI models *(OpenAI GPT-4o mini, Mistral Large)*
+* GitHub Codespaces
 
 ## Additional Resources and Continued Learning
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Intro to Azure OpenAI Service  | [Microsoft Learn module](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service |
-| Azure OpenAI Service documentation  | [Azure OpenAI Service documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/?WT.mc_id=aiml-132569-cacaste) | Learn more about Azure OpenAI Service |
-| Azure OpenAI Service pricing  | [Pricing details](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service pricing |
-| Transparency Note for Azure OpenAI Service  | [Transparency Note](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service use cases, capabilities and limitations |
-
+Microsoft Azure AI Fundamentals: AI Overview | [Microsoft Learn path](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/) | Learn how Artificial Intelligence (AI) empowers amazing new solutions and experiences; and explore Microsoft Azure that provides easy to use services to help you get started.  
+| Microsoft Azure AI Fundamentals: Generative AI | [Microsoft Learn path](https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/) | Learn how Azure AI Studio leverages language models and responsible AI principles to provide cutting-edge generative AI technology, including copilots that enhance efficiency through ethical AI-driven prompts and responses. |
+| Get started with Azure AI Services | [Microsoft Learn path](https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai/) | earn how to provision, secure, monitor, and deploy Azure AI Services resources and use them to build intelligent solutions. |
 
 ## Content Owners
 
