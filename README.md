@@ -1,25 +1,39 @@
 # The foundation of generative AI in Azure
 
-
+This repo hosts the material for the Microsoft AI Tour session *The foundation of generative AI in Azure*.
 
 ## Session Desciption
 
-Discover the world of generative AI in Azure! We'll take a look at the newest multimodal models, like GPT-4o and Phi-3. You'll learn how these models work, what they are capable of, and how you can use them in your projects. We'll also give you a tour of the Azure AI ecosystem, showing you the different services available to help you start building your own custom copilots.
-
+Discover the basics of generative AI, including core models, functionalities, and real-world applications. Learn how to utilize these models within the Azure ecosystem, leveraging various services to build your own generative AI applications.
 
 ## Learning Outcomes
-TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
+
+* Learn about the history of AI at Microsoft
+* Explore the Azure AI services
+* Understand how language models work
+* Learn how to interact with large language models
+* Explore various types of models for different usecases
 
 ## Technology Used
-TODO: Add a list of any technology or software used.
+
+* Azure AI Studio
+    * Chat playground with GPT4o and GPT4o mini
+    * Content filters
+    * Assistants
+* Azure Speech service
+    * Text to Speech Avatar
+    * Live Chat Avatar
+    * Video Translation
+* GitHub playground for AI models
 
 ## Additional Resources and Continued Learning
-TODO: If you would like to link the user to further learning, please enter that here.
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
-| Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
+| Intro to Azure OpenAI Service  | [Microsoft Learn module](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service |
+| Azure OpenAI Service documentation  | [Azure OpenAI Service documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/?WT.mc_id=aiml-132569-cacaste) | Learn more about Azure OpenAI Service |
+| Azure OpenAI Service pricing  | [Pricing details](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service pricing |
+| Transparency Note for Azure OpenAI Service  | [Transparency Note](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service use cases, capabilities and limitations |
 
 
 ## Content Owners
