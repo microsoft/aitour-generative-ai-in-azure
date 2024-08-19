@@ -1,8 +1,3 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
 ## How To Use
 
 Welcome,
@@ -14,7 +9,7 @@ code.
 
 1.  Read document in its entirety.
 2.  Watch the video presentation
-3.  Ask questions of the Lead Presenter
+3.  Use GitHub discussion to ask questions
 
 ## File Summary
 
@@ -26,6 +21,8 @@ code.
 | Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
 | Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
 | Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
+
+
 
 ## Get Started
 
@@ -61,9 +58,13 @@ The [slides](presentations.md) have presenter notes in each part of the session
 
 > **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
+Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 6 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure.
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
-
+|  [1 - Text to Speech avatar](text-to-speech-avatar-demo)      | 2       | [Link]() |
+|  [2 - Live Chat avatar](live-chat-avatar-demo)                | 2       | [Link]() |
+|  [3 - Video Translation](video-translation-demo)              | 2       | [Link]() |
+|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link]() |
+|  [5 - Github Models](github-models)                           | 2       | [Link]() |
+|  [6 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link]() |
