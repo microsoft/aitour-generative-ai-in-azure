@@ -4,7 +4,7 @@ This repo hosts the material for the Microsoft AI Tour session *The foundation o
 
 ## Session Desciption
 
-Discover the basics of generative AI, including core models, functionalities, and real-world applications. Learn how to utilize these models within the Azure ecosystem, leveraging various services to build your own generative AI applications.
+Discover the basics of generative AI, including core models, functionalities. Learn how to utilize these models within the Azure ecosystem, leveraging various services to build your own generative AI applications.
 
 ## Learning Outcomes
 
