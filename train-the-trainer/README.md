@@ -16,7 +16,7 @@ code.
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | - [Presentation](https://aka.ms/AArvvsq) | Slides |
-| PPT Recording     | - [Presentation]() | Video Recording of the PowerPoint slides with audio |
+| PPT Recording     | - [Recording]() | Video Recording of the PowerPoint slides with audio |
 
 
 ## Demos
