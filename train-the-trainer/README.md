@@ -1,4 +1,4 @@
-## How To Use
+## Get started with the Generative AI in Azure content
 
 Welcome,
 
@@ -15,56 +15,21 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
-
-
-
-## Get Started
-
-This training repository is divided in to the following sections:
-
-| [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
-|-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
-
-## Slides
-
-The [slides](presentations.md) have presenter notes in each part of the session
-
-### Timing
-
-| Time        | Description 
---------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
-
-## Deployment / Preparation
-
->**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
-
-[Instructions and prerequisites are outlined here](deployment/README.md). 
+| PowerPoint        | - [Presentation](https://aka.ms/AArvvsq) | Slides |
+| PPT Recording     | - [Recording]() | Video Recording of the PowerPoint slides with audio |
 
 
 ## Demos
 
-> **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
+> **What's Here?** Pre-delivery preparation, required files, and walk-through videos
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 6 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure.
+Detailed explanations of each demo associated with this presentation can be found in this section. There are 6 "walkthrough" technical demos that utilize a number of tools both in and out of Azure. Demo instructions cover all the pre-requisited and setup guidance for each demo and links include technical walkthrough videos.
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Text to Speech avatar](text-to-speech-avatar-demo)      | 2       | [Link]() |
-|  [2 - Live Chat avatar](live-chat-avatar-demo)                | 2       | [Link]() |
-|  [3 - Video Translation](video-translation-demo)              | 2       | [Link]() |
-|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link]() |
-|  [5 - Github Models](github-models)                           | 2       | [Link]() |
-|  [6 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link]() |
+|  [1 - Text to Speech avatar](text-to-speech-avatar-demo)      | 2       | [Link](https://aka.ms/AArvvsu) |
+|  [2 - Live Chat avatar](live-chat-avatar-demo)                | 2       | [Link](https://aka.ms/AArw3ie) |
+|  [3 - Video Translation](video-translation-demo)              | 2       | [Link](https://aka.ms/AArw3ip) |
+|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link 1](https://aka.ms/AArw3if) and [Link 2](https://aka.ms/AArvo23) |
+|  [5 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
+|  [6 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link](https://aka.ms/AArvvse) |
