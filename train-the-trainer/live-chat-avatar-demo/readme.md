@@ -12,8 +12,3 @@
 1. What is the Microsoft AI Tour?
 1. When does the AI Tour happen?
 1. What’s the benefit of joining the AI Tour?
-
-# Video instructions
-
-https://github.com/user-attachments/assets/d00f1a03-02f2-4a3d-89f4-603ff681efcd
-
