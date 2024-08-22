@@ -3,7 +3,6 @@
 prefix="BRK440"
 location="swedencentral"
 
-
 ai_resource_name="$prefix-$(shuf -i 1000-9999 -n 1)"
 echo "Resource name: $ai_resource_name"  
 
@@ -41,7 +40,7 @@ ai_service_api_key=$(az cognitiveservices account keys list --name $ai_resource_
 rm connection.yml   
 echo "name: $ai_resource_ai_service" >> connection.yml  
 echo "type: azure_ai_services" >> connection.yml  
-echo "endpoint: https://eastus.api.cognitive.microsoft.com/" >> connection.yml  
+echo "endpoint: https://$location.api.cognitive.microsoft.com/" >> connection.yml  
 echo "api_key: $ai_service_api_key" >> connection.yml  
 echo "ai_services_resource_id:  $ai_service_resource_id" >> connection.yml  
 
@@ -52,7 +51,7 @@ rm connection.yml
 echo "Disable storage SAS keys"
 storage_resource_id=$(az ml workspace show --name $ai_resource_name_hub_name --resource-group $ai_resource_name_resource_group_name --query storage_account --output tsv)
 storage_name=$(echo $storage_resource_id | awk -F'/' '{print $NF}') 
-#az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --allow-shared-key-access false   > null
+az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --allow-shared-key-access false   > null
 az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --min-tls-version TLS1_2  
 
 # AI Search
