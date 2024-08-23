@@ -6,6 +6,8 @@ location="swedencentral"
 ai_resource_name="$prefix-$(shuf -i 1000-9999 -n 1)"
 echo "Resource name: $ai_resource_name"  
 
+#ai_resource_name ="BRK440-2516"
+
 # Create the resource group
 ai_resource_name_resource_group_name=$ai_resource_name"_RG"
 echo "Creating resource group: $ai_resource_name_resource_group_name"
@@ -24,9 +26,10 @@ az ml workspace create --kind project --resource-group $ai_resource_name_resourc
 
 # Create a Azure AI Service Account
 ai_resource_ai_service=$ai_resource_name"-aiservice"
+custom_domain_name=${ai_resource_name,,}
 echo "Creating AI Service Account: $ai_resource_ai_service"
-#az cognitiveservices account create --kind AIServices --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
-az cognitiveservices account create --kind OpenAI --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
+az cognitiveservices account create --kind AIServices --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes --custom-domain $custom_domain_name  > null
+#az cognitiveservices account create --kind OpenAI --location $location --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --sku S0 --yes > null
 
 # Deploying GPT-4o in Azure AI Service
 echo "Deploying GPT-4o"
@@ -51,7 +54,7 @@ rm connection.yml
 echo "Disable storage SAS keys"
 storage_resource_id=$(az ml workspace show --name $ai_resource_name_hub_name --resource-group $ai_resource_name_resource_group_name --query storage_account --output tsv)
 storage_name=$(echo $storage_resource_id | awk -F'/' '{print $NF}') 
-az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --allow-shared-key-access false   > null
+#az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --allow-shared-key-access false   > null
 az storage account update --name $storage_name --resource-group $ai_resource_name_resource_group_name --min-tls-version TLS1_2  
 
 # AI Search
@@ -61,12 +64,19 @@ az search service create --name $ai_resource_ai_search --resource-group $ai_reso
 
 search_url="https://"$ai_resource_ai_search".search.windows.net"
 search_key=$(az search admin-key show --service-name $ai_resource_ai_search --resource-group $ai_resource_name_resource_group_name --query primaryKey --output tsv)
+search_id=$(az search service show --name brk440-1220-aisearch --resource-group BRK440-1220_RG --query id --output tsv)
 
 rm connection_search.yml   
 echo "name: $ai_resource_ai_search" >> connection_search.yml  
 echo "type: azure_ai_search" >> connection_search.yml  
 echo "endpoint: $search_url" >> connection_search.yml  
 echo "api_key: $search_key" >> connection_search.yml  
+echo "ResourceIdL: $search_id" >> connection_search.yml
 
 az ml connection create --file connection_search.yml --resource-group $ai_resource_name_resource_group_name --workspace-name  $ai_resource_name_hub_name > null
 rm connection_search.yml  
+
+# Upload data to the storage
+az ml data create -w $ai_resource_project_name --resource-group $ai_resource_name_resource_group_name -n ContosoProducts -p data
+
+# Create a index
