@@ -20,8 +20,3 @@
 In your project, show the Original video first by selecting **Original**. Then, switch to the **Translated** version and play the translated video until the end.
 
 > **Hint:** Make sure to ask for a review for the translations before your session.
-
-# Video instructions
-
-https://github.com/user-attachments/assets/dc218277-9a41-4428-8ce5-7f7b1905a5bb
-

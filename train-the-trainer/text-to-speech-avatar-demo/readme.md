@@ -13,9 +13,4 @@ As you see in the video, the avatar already have some gestures naturally added, 
 1. Recognize that after changing the language, voice options changed as well, you can also select the voice of your choice.
 1. Select **Preview video** again and there we go. The avatar now speaks in language of your choice.
 
-Finally, scroll down in the page to show that this is all available as a code snippet to customize further and it’s also available on GitHub. 
-
-# Video instructions
-
-https://github.com/user-attachments/assets/62bcbeba-8f34-4708-b6b5-d96b9546ce9b
-
+Finally, scroll down in the page to show that this is all available as a code snippet to customize further and it’s also available on GitHub.
