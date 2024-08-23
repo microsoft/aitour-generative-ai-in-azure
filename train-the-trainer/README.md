@@ -15,8 +15,8 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](https://aka.ms/AArvvsq) | Slides |
-| PPT Recording     | - [Recording]() | Video Recording of the PowerPoint slides with audio |
+| PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides |
+| PPT Recording     | [Recording]() | Video Recording of the PowerPoint slides with audio |
 
 
 ## Demos
@@ -30,6 +30,7 @@ Detailed explanations of each demo associated with this presentation can be foun
 |  [1 - Text to Speech avatar](text-to-speech-avatar-demo)      | 2       | [Link](https://aka.ms/AArvvsu) |
 |  [2 - Live Chat avatar](live-chat-avatar-demo)                | 2       | [Link](https://aka.ms/AArw3ie) |
 |  [3 - Video Translation](video-translation-demo)              | 2       | [Link](https://aka.ms/AArw3ip) |
-|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link 1](https://aka.ms/AArw3if) and [Link 2](https://aka.ms/AArvo23) |
-|  [5 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
-|  [6 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link](https://aka.ms/AArvvse) |
+|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link](https://aka.ms/AArw3if) |
+|  [4 - Multimodal - Context is everything](multimodal)         | 2       | [Link](https://aka.ms/AArvo23) |
+|  [6 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
+|  [7 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link](https://aka.ms/AArvvse) |
