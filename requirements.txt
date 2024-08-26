@@ -1,3 +1,4 @@
 azure-identity
 python-dotenv
 opencv-python
+azure-ai-inference

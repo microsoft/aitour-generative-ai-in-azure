@@ -9,6 +9,7 @@ RUN sudo apt-get update && sudo apt-get install -y \
     pkg-config \
     libdbus-1-dev \
     libglib2.0-dev \
+    python3-opencv \
  && python -m pip install --upgrade pip \
  && sudo apt-get clean \
  && sudo rm -rf /var/lib/apt/lists/*
