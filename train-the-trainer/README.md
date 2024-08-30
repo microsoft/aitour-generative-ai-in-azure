@@ -34,3 +34,4 @@ Detailed explanations of each demo associated with this presentation can be foun
 |  [4 - Multimodal - Context is everything](multimodal)         | 2       | [Link](https://aka.ms/AArvo23) |
 |  [6 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
 |  [7 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link](https://aka.ms/AArvvse) |
+|  [8 -Intro into Assistant API](agent)                         | 2       | [Link](https://aka.ms/) |
