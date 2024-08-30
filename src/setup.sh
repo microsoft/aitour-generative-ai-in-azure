@@ -43,7 +43,7 @@ ai_service_api_key=$(az cognitiveservices account keys list --name $ai_resource_
 rm connection.yml   
 echo "name: $ai_resource_ai_service" >> connection.yml  
 echo "type: azure_ai_services" >> connection.yml  
-echo "endpoint: https://$location.api.cognitive.microsoft.com/" >> connection.yml  
+echo "endpoint: https://$custom_domain_name.api.cognitive.microsoft.com/" >> connection.yml  
 echo "api_key: $ai_service_api_key" >> connection.yml  
 echo "ai_services_resource_id:  $ai_service_resource_id" >> connection.yml  
 
