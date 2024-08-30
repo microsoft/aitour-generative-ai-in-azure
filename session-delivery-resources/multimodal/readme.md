@@ -1,12 +1,13 @@
-# Demo 10 - Content Safety
+# Demo 4 - Multimodal
 
-**Description**
-TBA
+**Description**.   
+In this demo you are going to show the multimodal capabilities (image and text) using the playground in Azure AI Studio with GPT-4o Model deployed.
 
-**Goal**
-TBA
 
-## Demo: Holiday Home
+## Demo 4.1: Holiday Home
+
+- [Backup video recording]](https://aka.ms/AArw3if)
+- [Demo files]()
 
 ### Prompt:
 Create a tagline and short description for this rental home advertisement.
@@ -16,7 +17,12 @@ Create a tagline and short description for this rental home advertisement.
 - Do not talk about features not visible in the images.
 - If you have information about the location of the images, use that information in the description
    
-## Demo: Context is everything
+## Demo 4.2: Context is everything
+
+
+- [Backup video recording](https://aka.ms/AArvo23)
+- [Demo files]()
+
 For this next demo, we have an obstructed image. I purposefully put the bounding boxes there to make it not clear so you don't have the full context. 
 This is my example where context is everything. And GPT-4o is the first large-scale model that actually bakes context in. 
    
