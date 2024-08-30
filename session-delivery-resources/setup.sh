@@ -77,6 +77,6 @@ az ml connection create --file connection_search.yml --resource-group $ai_resour
 rm connection_search.yml  
 
 # Upload data to the storage
-az ml data create -w $ai_resource_project_name --resource-group $ai_resource_name_resource_group_name -n ContosoProducts -p data
+az ml data create -w $ai_resource_project_name --resource-group $ai_resource_name_resource_group_name -n ContosoProducts -p content-safety/data
 
 # Create a index

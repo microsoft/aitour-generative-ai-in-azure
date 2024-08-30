@@ -16,7 +16,7 @@ code.
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides |
-| PPT Recording     | [Recording]() | Video Recording of the PowerPoint slides with audio |
+| Session walkthrough     | [Recording]() | Video Recording of the session with audio |
 
 
 ## Demos
@@ -30,8 +30,24 @@ Detailed explanations of each demo associated with this presentation can be foun
 |  [1 - Text to Speech avatar](text-to-speech-avatar-demo)      | 2       | [Link](https://aka.ms/AArvvsu) |
 |  [2 - Live Chat avatar](live-chat-avatar-demo)                | 2       | [Link](https://aka.ms/AArw3ie) |
 |  [3 - Video Translation](video-translation-demo)              | 2       | [Link](https://aka.ms/AArw3ip) |
-|  [4 - Multimodal - Holiday Home](multimodal)                  | 2       | [Link](https://aka.ms/AArw3if) |
-|  [4 - Multimodal - Context is everything](multimodal)         | 2       | [Link](https://aka.ms/AArvo23) |
-|  [6 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
-|  [7 - Content Safety](text-to-speech-avatar-demo)             | 2       | [Link](https://aka.ms/AArvvse) |
-|  [8 -Intro into Assistant API](agent)                         | 2       | [Link](https://aka.ms/) |
+|  [4.1 - Multimodal - Holiday Home](multimodal)                | 2       | [Link](https://aka.ms/AArw3if) |
+|  [4.2 - Multimodal - Context is everything](multimodal)       | 2       | [Link](https://aka.ms/AArvo23) |
+|  [5 - Github Models](github-models)                           | 2       | [Link](https://aka.ms/AArvo1o) |
+|  [6 - Content Safety](content-safety)                         | 2       | [Link](https://aka.ms/AArvvse) |
+|  [7 - Intro into Assistant API](agent)                        | 2       | [Link](https://aka.ms/AArvvsd) |
+
+
+## Setup
+
+To run the demos you need to have the following resources deployed and access.
+- Azure AI Speech Service
+- Azure AI Studio with GTP-4o Deployed
+- Azure AI Search for the content filtering demo
+- Access to GitHub Marketplace Models.
+
+To setup everything you can start a codespace and run:
+- az login --use-device-code
+- Select your subscription
+- Check if your subscription is selected (az account show )
+- Run [setup.sh](setup.sh)
+

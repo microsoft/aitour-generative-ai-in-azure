@@ -1,13 +1,15 @@
-# Demo 10 - Content Safety
+# Demo 6 - Content Safety
 
-**Description**
-TBA
-
-**Goal**
-TBA
+#### Description
+In this demo you are going to show the power of Azure AI Content Filtering and showing that it is taking context in account.
 
 
-## Setup
+#### Required access and products
+- Azure AI Studio
+- Model GPT-4o or GPT-4o-Mini deployed
+
+
+#### Setup Azure AI Studio with your own data
 
 - Navigate to: AI Studio / Hub / Project
 - Click: Data under components
@@ -31,9 +33,13 @@ TBA
     - Click create
 
 
-## Script
+## Demo walkthrough
 
-**Do this before the session start in a tab**.     
+- [Backup video recording](https://aka.ms/AArvvse)
+- [Demo files](https://github.com/microsoft/aitour-generative-ai-in-azure/tree/main/session-delivery-resources/content-safety/data)
+
+
+#### Do this before the session start in a tab     
 
 - Go to AI Studio
 - Select the Hub
@@ -41,7 +47,6 @@ TBA
 - Select: Chat under Project Playground
     - Click "Add your own data"
     - Select index: "contoso-product-index"
-
 
 **Talk track**.  
 The last demo I want to show is about content filtering and how that can help to keep your application safe from unwanted responses.
