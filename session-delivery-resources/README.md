@@ -16,7 +16,7 @@ code.
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides |
-| Session walkthrough     | [Recording]() | Video Recording of the session with audio |
+| Session walkthrough     | [Recording](https://aka.ms/AAs5lza) | Video Recording of the session with audio |
 
 
 ## Demos
