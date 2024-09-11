@@ -1,12 +1,13 @@
 #!/bin/bash  
 
 prefix="BRK440"
-location="swedencentral"
+
+# scenario works wit regions: Sweden Central and East US 2
+# location="swedencentral"
+location="eastus2"
 
 ai_resource_name="$prefix-$(shuf -i 1000-9999 -n 1)"
 echo "Resource name: $ai_resource_name"  
-
-#ai_resource_name ="BRK440-2516"
 
 # Create the resource group
 ai_resource_name_resource_group_name=$ai_resource_name"_RG"
@@ -45,22 +46,30 @@ echo "======================================="
 
 # Deploying GPT-4o in Azure AI Service
 echo "======================================="
-#echo "Deploying GPT-4o"
 # recommended config GPT-4o with 50 capacity
-# az cognitiveservices account deployment create --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --deployment-name "gpt-4o" --model-name "gpt-4o" --model-version "2024-05-13" --model-format "OpenAI" --sku-capacity "1" --sku-name "Standard" --capacity "50" > null
-# echo "GPT-4o deployment completed successfully"
-
-# optional with GPT-4o-mini with 8 capacity
-echo "Deploying GPT-4o-mini"
-az cognitiveservices account deployment create --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --deployment-name "gpt-4o" --model-name "gpt-4o-mini" --model-version "2024-07-18" --model-format "OpenAI" --sku-capacity "1" --sku-name "Standard" --capacity "8" > null
-echo "GPT-4o-mini deployment parameters:"
-echo "Model Name: gpt-4o-mini"
-echo "Model Version: 2024-07-18"
+echo "Deploying GPT-4o"
+az cognitiveservices account deployment create --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --deployment-name "gpt-4o" --model-name "gpt-4o" --model-version "2024-05-13" --model-format "OpenAI" --sku-capacity "1" --sku-name "Standard" --capacity "50" > null
+echo "GPT-4o deployment parameters:"
+echo "Model Name: gpt-4o"
+echo "Model Version: 2024-05-13"
 echo "Model Format: OpenAI"
 echo "SKU Capacity: 1"
 echo "SKU Name: Standard"
-echo "Capacity: 8"
-echo "GPT-4o-mini deployment completed successfully"
+echo "Capacity: 50"
+echo "GPT-4o deployment completed successfully"
+
+# optional with GPT-4o-mini with 8 capacity
+# echo "Deploying GPT-4o-mini"
+# az cognitiveservices account deployment create --name $ai_resource_ai_service --resource-group $ai_resource_name_resource_group_name --deployment-name "gpt-4o" --model-name "gpt-4o-mini" --model-version "2024-07-18" --model-format "OpenAI" --sku-capacity "1" --sku-name "Standard" --capacity "8" > null
+
+# echo "GPT-4o-mini deployment parameters:"
+# echo "Model Name: gpt-4o-mini"
+# echo "Model Version: 2024-07-18"
+# echo "Model Format: OpenAI"
+# echo "SKU Capacity: 1"
+# echo "SKU Name: Standard"
+# echo "Capacity: 8"
+# echo "GPT-4o-mini deployment completed successfully"
 echo "======================================="
 
 # Adding connection to the AI Hub
@@ -112,8 +121,10 @@ tmp_name=$ai_resource_name"-aisearch"
 ai_resource_ai_search="${tmp_name,,}"
 # creating AI Search service using Standard tier
 az search service create --name $ai_resource_ai_search --resource-group $ai_resource_name_resource_group_name --sku Standard --partition-count 1 --replica-count 1
+
 # uncomment previous line and uncomment below line to create AI Search service using Free tier
 # az search service create --name $ai_resource_ai_search --resource-group $ai_resource_name_resource_group_name --sku Free --partition-count 1 --replica-count 1
+
 echo "Previous steps completed successfully"
 echo "Details of previous steps:"
 echo "Resource Group: $ai_resource_name_resource_group_name"
