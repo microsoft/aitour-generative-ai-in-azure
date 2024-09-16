@@ -15,7 +15,7 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides |
+| PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides, [Additional Languages](https://github.com/microsoft/aitour-generative-ai-in-azure/blob/main/session-delivery-resources/README.md#slides-in-additional-languages) |
 | Session walkthrough     | [Recording](https://aka.ms/AAs5lza) | Video Recording of the session with audio |
 
 
@@ -36,6 +36,11 @@ Detailed explanations of each demo associated with this presentation can be foun
 |  [6 - Content Safety](content-safety)                         | 2       | [Link](https://aka.ms/AArvvse) |
 |  [7 - Intro into Assistant API](agent)                        | 2       | [Link](https://aka.ms/AArvvsd) |
 
+### Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| [Spanish](https://aka.ms/AAs7u27) | 2024.09.16 | 
+| [Portuguese](https://aka.ms/AAs7u26) | 2024.09.16| 
 
 ## Setup
 
@@ -50,4 +55,13 @@ To setup everything you can start a codespace and run:
 - Select your subscription
 - Check if your subscription is selected (az account show )
 - Run [setup.sh](setup.sh)
+
+## Change Log
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2024.09.16 | Added Change log, Additional language section with Spanish and Portuguese PowerPoint slides |
+
+
 
