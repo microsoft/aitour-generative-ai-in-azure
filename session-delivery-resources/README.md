@@ -39,7 +39,7 @@ Detailed explanations of each demo associated with this presentation can be foun
 ### Slides in additional languages
 | Language | Last updated | 
 |------------------- | ---- |
-| [Spanish](https://aka.ms/AAs7u27) | 2024.09.16 | 
+| [Spanish](https://aka.ms/AAs7u27) | 2024.09.20 | 
 | [Portuguese](https://aka.ms/AAs7u26) | 2024.09.16| 
 
 ## Setup
