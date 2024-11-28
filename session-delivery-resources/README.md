@@ -46,7 +46,7 @@ Detailed explanations of each demo associated with this presentation can be foun
 
 To run the demos you need to have the following resources deployed and access.
 - Azure AI Speech Service
-- Azure AI Studio with GTP-4o Deployed
+- Azure AI Foundry with GTP-4o Deployed
 - Azure AI Search for the content filtering demo
 - Access to GitHub Marketplace Models.
 
