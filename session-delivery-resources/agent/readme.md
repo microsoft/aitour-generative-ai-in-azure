@@ -1,11 +1,11 @@
 # Demo 7 - Intro into Assistant API
 
 #### Description
-In this demo you are going to show the Azure OpenAI Assistant API capabilities using the playground in Azure AI Studio with GPT-4o Model deployed.
+In this demo you are going to show the Azure OpenAI Assistant API capabilities using the playground in Azure AI Foundry with GPT-4o Model deployed.
 The demo is intended to leave the audience inspired to learn more about what they can build with LLMs.
 
 #### Required access and products
-- Azure AI Studio
+- Azure AI Foundry
 - Model GPT-4o or GPT-4o-Mini deployed
 
 ## Demo flow
