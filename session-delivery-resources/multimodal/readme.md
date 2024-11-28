@@ -1,10 +1,10 @@
 # Demo 4 - Multimodal
 
 #### Description
-In this demo you are going to show the multimodal capabilities (image and text) using the playground in Azure AI Studio with GPT-4o Model deployed.
+In this demo you are going to show the multimodal capabilities (image and text) using the playground in Azure AI Foundry with GPT-4o Model deployed.
 
 #### Required access and products
-- Azure AI Studio
+- Azure AI Foundry
 - Model GPT-4o or GPT-4o-Mini deployed
 
 
