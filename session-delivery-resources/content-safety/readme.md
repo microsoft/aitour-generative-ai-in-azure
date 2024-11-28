@@ -5,13 +5,13 @@ In this demo you are going to show the power of Azure AI Content Filtering and s
 
 
 #### Required access and products
-- Azure AI Studio
+- Azure AI Foundry
 - Model GPT-4o or GPT-4o-Mini deployed
 
 
-#### Setup Azure AI Studio with your own data
+#### Setup Azure AI Foundry with your own data
 
-- Navigate to: AI Studio / Hub / Project
+- Navigate to: AI Foundry / Hub / Project
 - Click: Data under components
     - Click: New Data
     - Data source: Upload files/folders
@@ -21,7 +21,7 @@ In this demo you are going to show the power of Azure AI Content Filtering and s
     - Click. "create"
 - Click Index under components
     - Click: New Index
-    - Data source: "Data in Azure AI Studio"
+    - Data source: "Data in Azure AI Foundry"
     - Select "contoso-products"
     - Click next
     - Select: Azure AI Search Service
@@ -41,7 +41,7 @@ In this demo you are going to show the power of Azure AI Content Filtering and s
 
 #### Do this before the session start in a tab     
 
-- Go to AI Studio
+- Go to AI Foundry
 - Select the Hub
 - Select the Project
 - Select: Chat under Project Playground
@@ -57,6 +57,6 @@ I'll get the response recommending me the Trailcutter Axe that our company is se
 When a customer asks a question like this, we really do not recommend any of our products here.
 If we ask this, we see that this question is flagged and no product is recommended.
 How does this work?
-In Azure AI Studio we can setup content filters and attach them to specific deployments.
+In Azure AI Foundry we can setup content filters and attach them to specific deployments.
 Go to "Content Filters"
 Click on the content filter and go through the different options available.
