@@ -21,7 +21,7 @@ In this demo you are going to show how you can use GitHub models quickly to crea
 - Navigate to the [Model in the Marketplace](https://github.com/marketplace/models)
 - Click on playground    
     - Select GPT-4o Mini
-    - System message: You are a grumpy assistant, only answering questions about the rubber ducks)
+    - System message: You are a grumpy assistant, only answering questions about the rubber ducks
     - In the user message type: "Hello"
     - Change the models and see how they respond differently
 
