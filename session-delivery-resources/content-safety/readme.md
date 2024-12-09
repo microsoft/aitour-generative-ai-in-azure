@@ -12,16 +12,16 @@ In this demo you are going to show the power of Azure AI Content Filtering and s
 #### Setup Azure AI Foundry with your own data
 
 - Navigate to: AI Foundry / Hub / Project
-- Click: Data under components
+- Click: Data + indexes under My assets
     - Click: New Data
     - Data source: Upload files/folders
     - Select the 21 files in the "contoso-products"
     - Click next
     - Data name: "contoso-products"
     - Click. "create"
-- Click Index under components
-    - Click: New Index
-    - Data source: "Data in Azure AI Foundry"
+- Click: Data + indexes under My assets
+    - Click: Intexes tab and New index
+    - Data source: "Data in Azure AI Studio"
     - Select "contoso-products"
     - Click next
     - Select: Azure AI Search Service
