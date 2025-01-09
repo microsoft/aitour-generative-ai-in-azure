@@ -2,7 +2,7 @@
 [![Azure AI Community Discord](
 https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-00001-leestott)
 
-This repo hosts the material for the Microsoft AI Tour session *The foundation of generative AI in Azure*.
+This repo hosts the material for the Microsoft AI Tour session *Getting started with Generative AI in Azure*.
 
 ## Session Description
 
