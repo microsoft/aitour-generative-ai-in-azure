@@ -17,6 +17,7 @@ code.
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArvvsq) | Slides, [Additional Languages](https://github.com/microsoft/aitour-generative-ai-in-azure/blob/main/session-delivery-resources/README.md#slides-in-additional-languages) |
 | Session walkthrough     | [Recording](https://aka.ms/AAs5lza) | Video Recording of the session with audio |
+| Session delivery recording       | [Microsoft Reactor session](https://www.youtube.com/watch?v=chBbdR3RIFI)| Session delivery recording|
 
 
 ## Demos
