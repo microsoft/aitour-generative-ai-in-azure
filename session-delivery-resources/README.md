@@ -42,6 +42,8 @@ Detailed explanations of each demo associated with this presentation can be foun
 |------------------- | ---- |
 | [Spanish](https://aka.ms/AAs7u27) | 2024.09.20 | 
 | [Portuguese](https://aka.ms/AAs7u26) | 2024.09.16| 
+| [Korean](https://aka.ms/AAv6btb) | 2025.04.08  |
+| [Japanese](https://aka.ms/AAvcil2) | 2025.04.08  |
 
 ## Setup
 
